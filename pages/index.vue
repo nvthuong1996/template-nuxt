@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxt-convention
+        {{ $t('welcome') }}
       </h1>
       <h2 class="subtitle">
         My majestic Nuxt.js project

@@ -19,7 +19,8 @@
     "element-ui": "^2.4.11",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.0.0",
-    "nuxt-env": "^0.1.0"
+    "nuxt-env": "^0.1.0",
+    "nuxt-i18n": "^6.11.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",

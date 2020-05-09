@@ -65,8 +65,28 @@ export default {
       {
         keys: Object.keys(process.env)
       }
-    ]
+    ],
+    'nuxt-i18n'
   ],
+
+  i18n: {
+    locales: ['en', 'fr', 'es'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: {
+          welcome: 'Welcome'
+        },
+        fr: {
+          welcome: 'Bienvenue'
+        },
+        es: {
+          welcome: 'Bienvenido'
+        }
+      }
+    }
+  },
 
   /*
    ** Router configuration
