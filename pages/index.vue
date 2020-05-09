@@ -9,6 +9,12 @@
         My majestic Nuxt.js project
       </h2>
       <div class="links">
+        <nuxt-link :to="switchLocalePath('vi')" class="button--green">
+          VN
+        </nuxt-link>
+        <nuxt-link :to="localePath('/profile/me')" class="button--green">
+          Profile
+        </nuxt-link>
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
           Documentation
         </a>
