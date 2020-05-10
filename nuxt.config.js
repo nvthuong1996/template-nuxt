@@ -1,4 +1,3 @@
-import locales from './locales'
 require('dotenv').config()
 
 export default {
@@ -73,23 +72,23 @@ export default {
   i18n: {
     locales: [
       {
-        code: 'en',
-        name: 'English'
+        code: 'vi-VN',
+        name: 'Tiếng Việt',
+        file: 'vi-VN.js'
       },
       {
-        code: 'vi',
-        name: 'Tiếng Việt'
+        code: 'en-US',
+        name: 'English',
+        file: 'en-US.js'
       }
     ],
-    defaultLocale: 'en',
+    lazy: true,
+    defaultLocale: 'en-US',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected'
     },
-    vueI18n: {
-      fallbackLocale: 'en',
-      messages: locales
-    }
+    langDir: 'lang/'
   },
 
   /*
